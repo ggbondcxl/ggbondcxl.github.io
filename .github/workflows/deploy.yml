@@ -18,16 +18,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      # 安装 Python（用于提供 jupyter CLI）
+      - uses: actions/setup-python@v5
         with:
-          ruby-version: "3.2"
+          python-version: "3.11"
+
+      # 安装 jupyter/nbconvert（提供 `jupyter nbconvert` 命令）
+      - name: Install Jupyter CLI
+        run: |
+          python -m pip install --upgrade pip
+          pip install jupyter nbconvert
+
+      # （如果后面遇到 pandoc 报错，再加下面两行）
+      # - name: Install pandoc (only if needed)
+      #   run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"     # 或者删掉这一行，自动读取 .ruby-version
           bundler-cache: true
 
       - name: Install deps
@@ -36,8 +49,7 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build --trace
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
@@ -48,6 +60,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
