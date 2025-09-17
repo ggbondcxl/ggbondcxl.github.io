@@ -2,7 +2,7 @@ name: Build & Deploy Jekyll to GitHub Pages
 
 on:
   push:
-    branches: ["main"]   # 如果你的默认分支叫 master，就改成 "master"
+    branches: ["main"]   # 若你的默认分支是 master，就改成 "master"
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # 使用 GitHub 官方 Jekyll 构建（会根据你的 Gemfile 安装依赖与插件）
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
