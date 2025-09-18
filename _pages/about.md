@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>National Key Laboratory</p>
     <p>Communication University of</p>
     <p>China(CUC)</p>
     <p>Beijing, china</p>
