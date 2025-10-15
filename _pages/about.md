@@ -56,20 +56,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 *Xilong Cheng*<sup>*</sup>, Yunxiao Qin<sup>*,†</sup>, Yuting Tan<sup>*</sup>, Zhengnan Li, Ye Wang, Hongjiang Xiao<sup>†</sup>, Yuan Zhang  
 *Transactions of the Association for Computational Linguistics*
 
-2. **Towards Stable Self-Supervised Object Representations in Unconstrained Egocentric Video**  
+3. **Towards Stable Self-Supervised Object Representations in Unconstrained Egocentric Video**  
 Yuting Tan<sup>*</sup>, **Xilong Cheng**<sup>*</sup>, Yunxiao Qin, Zhengnan Li, Jingjing Zhang<sup>†</sup>  
 
-3. **Structured Guidance or Open-Ended Generation? Boundaries of Co-Creative AI for Screenwriting**  
+4. **Structured Guidance or Open-Ended Generation? Boundaries of Co-Creative AI for Screenwriting**  
 Ruihan Dong<sup>*</sup>, **Xilong Cheng**<sup>*,§</sup>, Qi Zhou<sup>*</sup>, Yuting Tan, Yuhao Zhou, Jingbo Ji, Yunxiao Qin<sup>†</sup>  
 
-4. **FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**  
+5. **FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**  
 Zhengnan Li, Haoxuan Li, Hao Wang, Jun Fang, Zhichao Chen, Yuting Tan, **Xilong Cheng**, Yunxiao Qin  
 
-5. **[Meta-Tuner: Meta-Trained Node-Specific Transformations for Graph Few-Shot Class-Incremental Learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)**  
+6. **[Meta-Tuner: Meta-Trained Node-Specific Transformations for Graph Few-Shot Class-Incremental Learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)**  
 Zhengnan Li, Jun Fang, Junbo Wang, **Xilong Cheng**, Yuting Tan, Yunxiao Qin  
 *Expert Systems with Applications*  
 
-6. **[FTMixer: Frequency and Time Domain Representations Fusion for Time Series Forecasting](https://ieeexplore.ieee.org/abstract/document/11106197)**  
+7. **[FTMixer: Frequency and Time Domain Representations Fusion for Time Series Forecasting](https://ieeexplore.ieee.org/abstract/document/11106197)**  
 Zhengnan Li, Yuting Tan, **Xilong Cheng**, Yunxiao Qin  
 *IEEE Signal Processing Letters*  
 
