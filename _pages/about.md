@@ -52,9 +52,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ### Publications
 
-1. **[PsyMem: Fine-grained psychological alignment and Explicit Memory Control for Advanced Role-Playing LLMs](https://arxiv.org/pdf/2505.12814)**  
-**Xilong Cheng**<sup>*</sup>, Yunxiao Qin<sup>*,†</sup>, Yuting Tan<sup>*</sup>, Zhengnan Li, Ye Wang, Hongjiang Xiao<sup>†</sup>, Yuan Zhang  
-*Transactions of the Association for Computational Linguistics*  
+1. **[PsyMem: Fine-grained psychological alignment and Explicit Memory Control for Advanced Role-Playing LLMs](https://arxiv.org/pdf/2505.12814)**<br>
+**Xilong Cheng**<sup>*</sup>, Yunxiao Qin<sup>*†</sup>, Yuting Tan<sup>*</sup>, Zhengnan Li, Ye Wang, Hongjiang Xiao<sup>†</sup>, Yuan Zhang<br>
+*Transactions of the Association for Computational Linguistics*
 
 3. **Towards Stable Self-Supervised Object Representations in Unconstrained Egocentric Video**  
 Yuting Tan<sup>*</sup>, **Xilong Cheng**<sup>*</sup>, Yunxiao Qin, Zhengnan Li, Jingjing Zhang<sup>†</sup>  
