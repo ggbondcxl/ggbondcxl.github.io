@@ -53,14 +53,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 ### Publications
 
 1. **[PsyMem: Fine-grained psychological alignment and Explicit Memory Control for Advanced Role-Playing LLMs](https://arxiv.org/pdf/2505.12814)**<br>
-**Xilong Cheng**<sup>*</sup>, Yunxiao Qin<sup>*†</sup>, Yuting Tan<sup>*</sup>, Zhengnan Li, Ye Wang, Hongjiang Xiao<sup>†</sup>, Yuan Zhang<br>
+**Xilong Cheng**<sup>★</sup>, Yunxiao Qin<sup>★,†</sup>, Yuting Tan<sup>★</sup>, Zhengnan Li, Ye Wang, Hongjiang Xiao<sup>†</sup>, Yuan Zhang<br>
 *Transactions of the Association for Computational Linguistics*
 
 3. **Towards Stable Self-Supervised Object Representations in Unconstrained Egocentric Video**  
-Yuting Tan<sup>*</sup>, **Xilong Cheng**<sup>*</sup>, Yunxiao Qin, Zhengnan Li, Jingjing Zhang<sup>†</sup>  
+Yuting Tan<sup>★</sup>, **Xilong Cheng**<sup>★</sup>, Yunxiao Qin, Zhengnan Li, Jingjing Zhang<sup>†</sup>  
 
 4. **Structured Guidance or Open-Ended Generation? Boundaries of Co-Creative AI for Screenwriting**  
-Ruihan Dong<sup>*</sup>, **Xilong Cheng**<sup>*,§</sup>, Qi Zhou<sup>*</sup>, Yuting Tan, Yuhao Zhou, Jingbo Ji, Yunxiao Qin<sup>†</sup>  
+Ruihan Dong<sup>★</sup>, **Xilong Cheng**<sup>★,§</sup>, Qi Zhou<sup>*</sup>, Yuting Tan, Yuhao Zhou, Jingbo Ji, Yunxiao Qin<sup>†</sup>  
 
 5. **FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**  
 Zhengnan Li, Haoxuan Li, Hao Wang, Jun Fang, Zhichao Chen, Yuting Tan, **Xilong Cheng**, Yunxiao Qin  
@@ -75,7 +75,7 @@ Zhengnan Li, Yuting Tan, **Xilong Cheng**, Yunxiao Qin
 
 ---
 
-<sub><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author · <sup>§</sup> Project leader</sub>
+<sub><sup>★</sup> Equal contribution · <sup>†</sup> Corresponding author · <sup>§</sup> Project leader</sub>
 
 ### Interests
 Beyond my academic focus on Large Language Models and Role-Playing Language Agents, I also have a strong passion for sports, particularly football and, more recently, tennis. While I see sports as an essential form of relaxation, I equally enjoy streaming media and reading literature on modern psychology, which help me unwind and broaden my perspective.
