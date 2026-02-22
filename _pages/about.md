@@ -61,7 +61,7 @@ Yuting Tan<sup>★</sup>, **Xilong Cheng**<sup>★</sup>, Yunxiao Qin, Zhengnan 
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026*
 
 4. **Structured Guidance or Open-Ended Generation? Boundaries of Co-Creative AI for Screenwriting**  
-Ruihan Dong<sup>★</sup>, **Xilong Cheng**<sup>★,§</sup>, Qi Zhou<sup>★</sup>, Yuting Tan, Yuhao Zhou, Jingbo Ji, Yunxiao Qin<sup>†</sup>  
+**Xilong Cheng**<sup>★,§</sup>, Qi Zhou<sup>★</sup>, Yuting Tan, Ruihan Dong, Yuhao Zhou, Jingbo Ji, Yunxiao Qin<sup>†</sup>  
 
 5. **FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**  
 Zhengnan Li, Haoxuan Li, Hao Wang, Jun Fang, Zhichao Chen, Yuting Tan, **Xilong Cheng**, Yunxiao Qin  
