@@ -64,14 +64,14 @@ Yuting Tan<sup>★</sup>, **Xilong Cheng**<sup>★</sup>, Yunxiao Qin, Zhengnan 
 **Xilong Cheng**<sup>★,§</sup>, Qi Zhou<sup>★</sup>, Yuting Tan, Ruihan Dong, Yuhao Zhou, Jingbo Ji, Yunxiao Qin<sup>†</sup>  
 
 5. **FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**  
-Zhengnan Li, Haoxuan Li, Hao Wang, Jun Fang, Zhichao Chen, Yuting Tan, **Xilong Cheng**, Yunxiao Qin  
+Zhengnan Li, Haoxuan Li, Hao Wang, Jun Fang, Zhichao Chen, Yuting Tan, **Xilong Cheng**, Yunxiao Qin<sup>†</sup>  
 
 6. **[Meta-Tuner: Meta-Trained Node-Specific Transformations for Graph Few-Shot Class-Incremental Learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)**  
-Zhengnan Li, Jun Fang, Junbo Wang, **Xilong Cheng**, Yuting Tan, Yunxiao Qin<sup>★,†</sup>  
+Zhengnan Li, Jun Fang, Junbo Wang, **Xilong Cheng**, Yuting Tan, Yunxiao Qin<sup>†</sup>  
 *Expert Systems with Applications*  
 
 7. **[FTMixer: Frequency and Time Domain Representations Fusion for Time Series Forecasting](https://ieeexplore.ieee.org/abstract/document/11106197)**  
-Zhengnan Li, Yuting Tan, **Xilong Cheng**, Yunxiao Qin<sup>★,†</sup>  
+Zhengnan Li, Yuting Tan, **Xilong Cheng**, Yunxiao Qin<sup>†</sup>  
 *IEEE Signal Processing Letters*  
 
 ---
