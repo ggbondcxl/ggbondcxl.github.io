@@ -57,7 +57,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 *Transactions of the Association for Computational Linguistics*
 
 3. **Towards Stable Self-Supervised Object Representations in Unconstrained Egocentric Video**  
-Yuting Tan<sup>★</sup>, **Xilong Cheng**<sup>★</sup>, Yunxiao Qin, Zhengnan Li, Jingjing Zhang<sup>†</sup>  
+Yuting Tan<sup>★</sup>, **Xilong Cheng**<sup>★</sup>, Yunxiao Qin<sup>★,†</sup>, Zhengnan Li, Jingjing Zhang<sup>†</sup>  
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026*
 
 4. **Structured Guidance or Open-Ended Generation? Boundaries of Co-Creative AI for Screenwriting**  
