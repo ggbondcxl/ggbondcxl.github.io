@@ -63,7 +63,7 @@ Yuting Tan<sup>★</sup>, **Xilong Cheng**<sup>★</sup>, Yunxiao Qin<sup>★,�
 4. **Structured Guidance or Open-Ended Generation? Boundaries of Co-Creative AI for Screenwriting**  
 **Xilong Cheng**<sup>★,§</sup>, Qi Zhou<sup>★</sup>, Yuting Tan, Ruihan Dong, Yuhao Zhou, Jingbo Ji, Yunxiao Qin<sup>†</sup>  
 
-5. **FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain**  
+5. **[FSMLP: Modelling Channel Dependencies With Simplex Theory Based Multi-Layer Perceptions In Frequency Domain](https://arxiv.org/pdf/2412.01654)**  
 Zhengnan Li, Haoxuan Li, Hao Wang, Jun Fang, Zhichao Chen, Yuting Tan, **Xilong Cheng**, Yunxiao Qin<sup>†</sup>  
 
 6. **[Meta-Tuner: Meta-Trained Node-Specific Transformations for Graph Few-Shot Class-Incremental Learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417425019517)**  
