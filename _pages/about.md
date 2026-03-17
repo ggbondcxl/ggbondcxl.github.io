@@ -56,7 +56,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 **Xilong Cheng**<sup>★</sup>, Yunxiao Qin<sup>★,†</sup>, Yuting Tan<sup>★</sup>, Zhengnan Li, Ye Wang, Hongjiang Xiao<sup>†</sup>, Yuan Zhang<br>
 *Transactions of the Association for Computational Linguistics*
 
-3. **Towards Stable Self-Supervised Object Representations in Unconstrained Egocentric Video**  
+3. **[Towards Stable Self-Supervised Object Representations in Unconstrained Egocentric Video](https://arxiv.org/abs/2603.13912)**  
 Yuting Tan<sup>★</sup>, **Xilong Cheng**<sup>★</sup>, Yunxiao Qin<sup>★,†</sup>, Zhengnan Li, Jingjing Zhang<sup>†</sup>  
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026*
 
