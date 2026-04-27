@@ -52,7 +52,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ### Publications
 
-1. **[PsyMem: Fine-grained psychological alignment and Explicit Memory Control for Advanced Role-Playing LLMs]([https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.645/136337/PsyMem-Fine-grained-Psychological-Alignment-and])**<br>
+1. **[PsyMem: Fine-grained psychological alignment and Explicit Memory Control for Advanced Role-Playing LLMs](https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.645/136337/PsyMem-Fine-grained-Psychological-Alignment-and)**<br>
 **Xilong Cheng**<sup>★</sup>, Yunxiao Qin<sup>★,†</sup>, Yuting Tan<sup>★</sup>, Zhengnan Li, Ye Wang, Hongjiang Xiao<sup>†</sup>, Yuan Zhang<br>
 *Transactions of the Association for Computational Linguistics*
 
