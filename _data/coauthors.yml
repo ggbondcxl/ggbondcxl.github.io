@@ -1,3 +1,53 @@
+"li":
+  - firstname: ["Duoyin"]
+    url: https://openreview.net/profile?id=~Duoyin_Li1
+  - firstname: ["Mengting"]
+    url: https://openreview.net/profile?id=~Mengting_Li6
+  - firstname: ["Linfeng"]
+    url: https://openreview.net/profile?id=~Linfeng_Li9
+
+"chen":
+  - firstname: ["Ruoyu"]
+    url: https://openreview.net/profile?id=~Ruoyu_Chen5
+
+"zhang":
+  - firstname: ["Wenji"]
+    url: https://openreview.net/profile?id=~Wenji_Zhang3
+  - firstname: ["Long"]
+    url: https://openreview.net/profile?id=~Long_Zhang4
+  - firstname: ["Yuan"]
+    url: https://openreview.net/profile?id=~Yuan_Zhang21
+
+"zhou":
+  - firstname: ["Yuhao"]
+    url: https://openreview.net/profile?id=~Yuhao_Zhou13
+  - firstname: ["Jingyuan"]
+    url: https://openreview.net/profile?id=~Jingyuan_Zhou3
+
+"tan":
+  - firstname: ["Yuting"]
+    url: https://openreview.net/profile?id=~Yuting_Tan1
+
+"qin":
+  - firstname: ["Yunxiao"]
+    url: https://openreview.net/profile?id=~Yunxiao_Qin1
+
+"ji":
+  - firstname: ["JingBo", "Jingbo"]
+    url: https://openreview.net/profile?id=~JingBo_Ji1
+
+"xiao":
+  - firstname: ["Zhihao"]
+    url: https://openreview.net/profile?id=~Zhihao_Xiao2
+
+"xu":
+  - firstname: ["Zhenhua"]
+    url: https://openreview.net/profile?id=~Zhenhua_Xu2
+
+"cai":
+  - firstname: ["Borui"]
+    url: https://openreview.net/profile?id=~Borui_cai2
+
 "adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams

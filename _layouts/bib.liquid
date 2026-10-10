@@ -1,8 +1,8 @@
 ---
 ---
-<div class="row">
+<div class="row publication-entry">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col-sm-3 abbr publication-thumbnail">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -30,15 +30,16 @@
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% assign preview_alt = entry.title | prepend: 'Illustration for ' | escape %}
           {%
             include figure.liquid
-            loading="eager"
+            loading="lazy"
             path=entry_path
-            sizes = "200px"
+            sizes = "240px"
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
-            alt=entry.preview
+            alt=preview_alt
           %}
         {% endif %}
       {% endif %}
@@ -46,9 +47,15 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-9{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">
+      {% if entry.paper %}
+        <a href="{{ entry.paper | escape }}">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -67,16 +74,6 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
-        {% assign coauthor_url = null %}
-        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
-          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
-            {% if coauthor.firstname contains author.first %}
-              {%- assign coauthor_url = coauthor.url -%}
-              {% break %}
-            {%- endif -%}
-          {% endfor %}
-        {%- endif -%}
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false -%}
@@ -90,15 +87,8 @@
             {{ author_last_html -}}
           </em>
         {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
-          {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
+          {{- author.first }}
+          {{ author_last_html -}}
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -149,6 +139,8 @@
     </div>
 
     <!-- Journal/Book title and date -->
+    {% assign entrymonth = '' %}
+    {% assign entryyear = '' %}
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
@@ -187,6 +179,15 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.resource_links == 'true' %}
+        {% include publication_resource.liquid label="Paper" url=entry.paper %}
+        {% if entry.show_code == 'true' %}
+          {% include publication_resource.liquid label="Code" url=entry.code %}
+        {% endif %}
+        {% if entry.show_weights == 'true' %}
+          {% include publication_resource.liquid label="Weights" url=entry.weights %}
+        {% endif %}
+      {% else %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -252,6 +253,7 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

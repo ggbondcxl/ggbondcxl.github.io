@@ -1,0 +1,34 @@
+- role: Large Language Model Algorithm Engineer
+  organization: Mininglamp Technology
+  employment_type: Full-time
+  reporting_to: Chenxu Zhao
+  reporting_title: VP
+  reporting_url: https://scholar.google.com/citations?user=q07NiEAAAAAJ&hl=zh-CN
+  start_date: "2026-07"
+  start_label: Jul 2026
+  end_label: Present
+  description: Post-training and capability optimization for Computer Use Agents (CUA).
+  logo: /assets/img/experience/mininglamp.png
+  logo_source: https://www.mininglamp.com/
+
+- role: Large Language Model Algorithm Engineer
+  organization: Alibaba Group
+  employment_type: Internship
+  start_date: "2025-06"
+  start_label: Jun 2025
+  end_date: "2025-11"
+  end_label: Nov 2025
+  description: Continual pre-training (CPT) of large language models for applications.
+  logo: /assets/img/experience/alibaba.png
+  logo_source: https://home.alibabagroup.com/en-US/resource-logos
+
+- role: Research Assistant
+  organization: Chinese Academy of Sciences
+  employment_type: Internship
+  start_date: "2022-07"
+  start_label: Jul 2022
+  end_date: "2023-08"
+  end_label: Aug 2023
+  description: Algorithm optimization.
+  logo: /assets/img/experience/cas.jpg
+  logo_source: https://www.cas.cn/zz/yk/201410/t20141016_4225141.shtml

@@ -1,0 +1,21 @@
+<div class="publications research-publications">
+  <section aria-labelledby="personalization-memory">
+    <h3 id="personalization-memory">Personalization &amp; Memory</h3>
+    {% bibliography --group_by none --query @*[research_area=personalization]* %}
+  </section>
+
+  <section aria-labelledby="egocentric-learning">
+    <h3 id="egocentric-learning">Egocentric Learning</h3>
+    {% bibliography --group_by none --query @*[research_area=egocentric]* %}
+  </section>
+
+  <section aria-labelledby="other-research">
+    <h3 id="other-research">Other Research</h3>
+    {% bibliography --group_by none --query @*[research_area=other]* %}
+  </section>
+
+  <p class="publication-legend">
+    <sup>*</sup> Equal contribution &middot; <sup>†</sup> Corresponding author &middot; <sup>§</sup> Project leader.
+    <span class="release-note">Gray buttons indicate resources that have not yet been released. I plan to release resources for all accepted papers together as soon as possible. My recent heavy workload has delayed these releases.</span>
+  </p>
+</div>

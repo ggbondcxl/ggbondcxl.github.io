@@ -1,0 +1,9 @@
+{% if include.url != blank %}
+  <a href="{{ include.url | escape }}" class="btn btn-sm z-depth-0 publication-resource">{{ include.label }}</a>
+{% else %}
+  <span
+    class="btn btn-sm z-depth-0 publication-resource unavailable"
+    aria-disabled="true"
+    title="{{ include.label }} not yet released"
+  >{{ include.label }}<span class="sr-only"> (not yet released)</span></span>
+{% endif %}
